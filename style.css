@@ -1,0 +1,94 @@
+body
+{
+    margin: 0px;
+}
+#navbar
+{
+    background-color: #1E1E1E;
+    height: 100px;
+    margin: 0px;
+    position: sticky;
+}
+#logo
+{
+    margin-left: 30px;
+    height: 100px;
+    float: left;
+}
+#navhead
+{
+    margin-top: 25px;
+    color: whitesmoke;
+    font-size: 50px;
+    float: left;
+    margin-left: 50px;
+}
+.redirects
+{
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+    color: white;
+    background: none;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+#background
+{
+    position: fixed;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(assets/image.png);
+    width: 100%;
+    height: 100%;
+}
+#heading
+{
+    margin-top: 130px;
+    color: whitesmoke;
+    font-size: 150px;
+}
+#des
+{
+    margin-top: -90px;
+    color: white;
+    font-size: 40px;
+    width: 60%;
+}
+#explore
+{
+    border: 10px solid yellow;
+    border-radius: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+#explore:hover
+{
+    animation-name: btn;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+@keyframes btn
+{
+    0%{background-image: linear-gradient(to bottom right, rgba(238, 130, 238, 0.2), rgba(76, 0, 130, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 128, 0, 0.2), rgba(255, 255, 0, 0.2), rgba(255, 166, 0, 0.2), rgba(255, 0, 0, 0.2));
+    }
+    14.285%{background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.2), rgba(238, 130, 238, 0.2), rgba(76, 0, 130, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 128, 0, 0.2), rgba(255, 255, 0, 0.2), rgba(255, 166, 0, 0.2));
+    }
+    28.57%{background-image: linear-gradient(to bottom right, rgba(255, 166, 0, 0.2), rgba(255, 0, 0, 0.2), rgba(238, 130, 238, 0.2), rgba(76, 0, 130, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 128, 0, 0.2), rgba(255, 255, 0, 0.2));
+    }
+    42.855%{background-image: linear-gradient(to bottom right, rgba(255, 255, 0, 0.2), rgba(255, 166, 0, 0.2), rgba(255, 0, 0, 0.2), rgba(238, 130, 238, 0.2), rgba(76, 0, 130, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 128, 0, 0.2));
+    }
+    57.14%{background-image: linear-gradient(to bottom right, rgba(0, 128, 0, 0.2), rgba(255, 255, 0, 0.2), rgba(255, 166, 0, 0.2), rgba(255, 0, 0, 0.2), rgba(238, 130, 238, 0.2), rgba(76, 0, 130, 0.2), rgba(0, 0, 255, 0.2));
+    }
+    71.285%{background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.2), rgba(0, 128, 0, 0.2), rgba(255, 255, 0, 0.2), rgba(255, 166, 0, 0.2), rgba(255, 0, 0, 0.2), rgba(238, 130, 238, 0.2), rgba(76, 0, 130, 0.2));
+    }
+    85.71%{background-image: linear-gradient(to bottom right, rgba(76, 0, 130, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 128, 0, 0.2), rgba(255, 255, 0, 0.2), rgba(255, 166, 0, 0.2), rgba(255, 0, 0, 0.2), rgba(238, 130, 238, 0.2));
+    }
+    100%{background-image: linear-gradient(to bottom right, rgba(238, 130, 238, 0.2), rgba(76, 0, 130, 0.2), rgba(0, 0, 255, 0.2), rgba(0, 128, 0, 0.2), rgba(255, 255, 0, 0.2), rgba(255, 166, 0, 0.2), rgba(255, 0, 0, 0.2));
+    }
+}
