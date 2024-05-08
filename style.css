@@ -1,0 +1,400 @@
+body {
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+    overflow-y: scroll;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    overflow-x: hidden;
+
+
+}
+
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.div1 {
+    height: 800px;
+    width: 100%;
+    background: rgba(0, 0, 0, );
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("assets/bg2.png");
+    margin-top: -35px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 150px;
+
+}
+
+.div2,
+.div4 {
+
+    background-color: #5C9007;
+    width: 100%;
+    margin: 0px;
+}
+
+.div2 {
+    height: 50px;
+}
+
+
+
+
+.div3 {
+    height: 630px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #bafcb4;
+    margin-top: -20px;
+    padding-top: 100px;
+
+
+}
+
+.div4 {
+    height: 20px;
+
+}
+
+.div5 {
+    background-color: rgba(255, 255, 255, 0);
+    height: 1650px;
+    padding-top: 20px;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.div5 h1 {
+    color: #6356FF;
+    margin-left: -900px;
+    font-size: 80px;
+}
+
+td {
+    width: 40%;
+
+}
+
+.kuch-bhi {
+    height: 500px;
+    transform: rotate(10deg);
+    background-color: whitesmoke;
+    width: 150%;
+    margin-left: -100px;
+    margin-top: -75px;
+
+}
+
+.div6 {
+    background-color: rgba(255, 255, 255, 0);
+    height: 1650px;
+
+
+
+}
+
+.div6 h1 {
+    color: whitesmoke;
+    margin-left: -730px;
+    font-size: 80px;
+
+}
+
+.div6 form {
+    position: absolute;
+    margin-left: -350px;
+
+}
+
+textarea {
+    resize: none;
+    margin-left: 420px;
+}
+
+.div6 input,
+.div6 textarea,
+#sub_btn {
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 15px;
+    font-family: "Andika", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+   
+    margin-bottom: 5px;
+
+
+}
+
+#sub_btn {
+    margin-left: -300px;
+
+}
+
+#sub_btn:hover {
+    animation-name: bakwas;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+
+}
+.div-news{
+    background-color:#e6e6e6 ;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes bakwas {
+    0% {
+        box-shadow: whitesmoke 0px 0px 0px 0px;
+    }
+
+    50% {
+        box-shadow: whitesmoke 0px 0px 50px 8px;
+    }
+
+    100% {
+        box-shadow: whitesmoke 0px 0px 0px 0px;
+    }
+
+}
+
+
+
+.infoico {
+    margin-bottom: -70px;
+    width: 150px;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+.infohead {
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.infodes {
+    color: whitesmoke;
+    width: 400px;
+    font-size: 30px;
+    margin-left: 180px;
+}
+
+#white-rect {
+    transform: rotate(-15deg);
+    background-color: whitesmoke;
+    height: 200px;
+    width: 150%;
+}
+
+#deshead {
+    font-size: 50px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.main-des {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 35px !important;
+    margin-top: 50px;
+    color: rgba(0, 0, 0.6);
+    font-size: 40px;
+    width: 65%;
+    background-color: aquamarine;
+    border-radius: 80px;
+    overflow: hidden;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 6px 9px 11px black;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 6%;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7));
+}
+
+#logo {
+    height: 85px;
+    float: left;
+    margin-top: -15px;
+    margin-left: -69px;
+}
+
+.imgs {
+    height: 150px;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -50px;
+    ;
+    background-color: grey;
+    border-radius: 50px;
+    box-shadow: 10px 10px 7px black;
+    border: 5px ridge black;
+
+
+
+}
+
+#navhead {
+    font-size: 40px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    float: left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#navbar {
+    float: right;
+    margin-top: 15px;
+    margin-right: -50px;
+}
+
+#navbar a,
+#navbar button {
+    color: whitesmoke;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#navbar a::before,
+#navbar button::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+
+}
+
+
+#navbar a:hover::before,
+#navbar button:hover::before {
+    width: 100%;
+
+}
+
+
+
+#heading {
+    margin-top: 0px;
+    color: whitesmoke;
+    font-size: 130px;
+
+}
+.rangna {
+    background-color: whitesmoke !important ;
+    color: black !important;
+    border-radius: 5px !important;
+    padding: 5px;
+}
+
+#des {
+    margin-top: -90px;
+    color: whitesmoke;
+    font-size: 40px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 80px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#explore {
+    border: 10px solid yellow;
+    border-radius: 80px;
+    background-color: rgba(0, 0, 0, 0);
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    margin-bottom: -20px;
+}
+
+#explore:hover {
+    animation-name: btn;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#explore:not(:hover) {
+    animation-name: btn2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes btn {
+    0% {
+        background-color: rgba(0, 0, 0, 0)
+    }
+
+    100% {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+@keyframes btn2 {
+    0% {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    100% {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+#popup {
+    visibility: hidden;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    position: absolute;
+}
+
+
+#in {
+    padding: 10px;
+    background-color: #2E8B57;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
