@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>SEEDS</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Poetsen+One&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <center>
+        <div id="popup">
+            <h2 id="pophead">Sign In</h2>
+            <br>
+            <input type="text" id="username">
+            <br>
+            <input type="text" id="password">
+            <br>
+            <button id="in" onclick="OGsign_in();">Sign In</button>
+            <h3 id="already">Already have an account? Log in now!</h3>
+        </div>
+        <div class="div1">
+            <header class="header">
+                <img src="assets/logo.png" id="logo" onclick="window.location()='index.html';">
+                <a id="navhead" href="index.html">SEEDS</a>
+                <nav id="navbar">
+
+                    <a href="index.html" class="rangna">Home</a>
+                    <button onclick="login();">Log In</button>
+                    <button onclick="signup();">Sign Up</button>
+                    <a href="news.html">News</a>
+                    <a href="OurTeam.html">Our Team</a>
+                    
+                    
+                </nav>
+            </header>
+            <div id="background">
+                <h1 id="heading">SEEDS</h1>
+                <h3 id="des">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</h3>
+                <button id="explore">EXPLORE</button>
+            </div>
+        </div>
+        <div class="div2">
+            <span><img class="imgs" src="assets/logo.png"></span>
+            <span><img class="imgs" src="assets/logo.png"></span>
+            <span><img class="imgs" src="assets/logo.png"></span>
+        </div>
+        <div class="div3">
+            <h1 id="deshead">
+                WHAT IS SEEDS
+            </h1>
+            <div class="main-des">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquid ipsum sint itaque vitae
+                    omnis nisi, temporibus iste repellat facilis quod nobis perferendis ratione est a sunt fugit
+                    voluptates ipsa. Accusamus numquam consequuntur, quis omnis maiores quo optio recusandae, deleniti
+                    vitae veniam laborum ipsa! Doloribus commodi qui nesciunt aliquid vitae maiores labore repudiandaebbnxdgbd
+                    fsbrfsbfs
+                    bsbrf
+                    rfh
+                    ut.
+                </p>
+            </div>
+        </div>
+        <div class="div4"></div>
+        <div class="div5">
+            <h1>
+                FEATURES
+            </h1>
+            <table>
+                <tr>
+                    <td>
+                        <h2 class="infohead"><img src="assets/clock.png" class="infoico">Lorem ipsum dolor sit amet.</h1>
+                        <h3 class="infodes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur pariatur sapiente laborum, recusandae obcaecati natus illum sint dolorem excepturi.</h3>
+                    </td>
+                    <td>
+                        <h2 class="infohead"><img src="assets/clock.png" class="infoico">Lorem ipsum dolor sit amet.</h1>
+                        <h3 class="infodes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur pariatur sapiente laborum, recusandae obcaecati natus illum sint dolorem excepturi.</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2 class="infohead"><img src="assets/clock.png" class="infoico">Lorem ipsum dolor sit amet.</h1>
+                        <h3 class="infodes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur pariatur sapiente laborum, recusandae obcaecati natus illum sint dolorem excepturi.</h3>
+                    </td>
+                    <td>
+                        <h2 class="infohead"><img src="assets/clock.png" class="infoico">Lorem ipsum dolor sit amet.</h1>
+                        <h3 class="infodes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur pariatur sapiente laborum, recusandae obcaecati natus illum sint dolorem excepturi.</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2 class="infohead"><img src="assets/clock.png" class="infoico">Lorem ipsum dolor sit amet.</h1>
+                        <h3 class="infodes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur pariatur sapiente laborum, recusandae obcaecati natus illum sint dolorem excepturi.</h3>
+                    </td>
+                    <td>
+                        <h2 class="infohead"><img src="assets/clock.png" class="infoico">Lorem ipsum dolor sit amet.</h1>
+                        <h3 class="infodes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tenetur pariatur sapiente laborum, recusandae obcaecati natus illum sint dolorem excepturi.</h3>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="kuch-bhi"> </div>
+         <div class="div6">
+            <h1>CONTACT US</h1>
+            <form method="post" action="mailto:trackturf2023@gmail.com" enctype="multipart/form-data">
+                <input type="text" id="name" placeholder="Name">
+                <br>
+                <input type="text" id="email" placeholder="Email">
+                <br>
+                <input type="text" id="phno" placeholder="Phone No.">
+                <br>
+                <textarea placeholder=" Your Kind Suggestion or Iconvenince" id="textarea" rows="4" cols="50"></textarea>
+                <br>
+                 <button onclick="bakwas();" id="sub_btn" type="submit">Submit</button>           
+        
+            </form>
+         </div>   
+       
+       
+
+<script src="main.js"></script>
+    </center>
+</body>
+
+</html>
